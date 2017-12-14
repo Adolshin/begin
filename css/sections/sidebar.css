@@ -1,0 +1,91 @@
+
+
+.nav__item {
+    font-size: 0;
+    margin-bottom: 25px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #ec1e79;
+    transition: all 0.3s step-end;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.nav__link_active {
+    color: #1c1f1d;
+    cursor: default;
+}
+
+.nav__link:hover {
+    color: #1c1f1d;
+    ;
+}
+
+.nav__link:hover .nav__sprite-main {
+    background-position: -203px -20px;
+}
+
+.nav__link:hover .nav__sprite-feed {
+    background-position: -81px -20px;
+}
+.nav__link:hover .nav__sprite-wallet {
+    background-position: -325px -20px;
+}
+
+
+.navigation__title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.nav__sprite {
+    background-image: url(../../img/icons/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav__sprite-feed {
+    width: 21px;
+    height: 21px;
+    background-position: -20px -20px;
+    transition: all 0.3s step-end;
+}
+
+.nav__sprite-feed_h {
+    width: 21px;
+    height: 21px;
+    background-position: -81px -20px;
+}
+
+.nav__sprite-main {
+    width: 21px;
+    height: 21px;
+    background-position: -142px -20px;
+    transition: all 0.3s step-end;
+}
+
+.nav__sprite-main_h {
+    width: 21px;
+    height: 21px;
+    background-position: -203px -20px;
+}
+
+.nav__sprite-wallet {
+    width: 21px;
+    height: 21px;
+    background-position: -264px -20px;
+    transition: all 0.3s step-end;
+}
+
+.nav__sprite-wallet_h {
+    width: 21px;
+    height: 21px;
+    background-position: -325px -20px;
+}

@@ -1,0 +1,291 @@
+.main {
+    padding-bottom: 70px;
+}
+
+.breadcrumbs {
+    padding-bottom: 15px;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__item:after {
+    content: ' /';
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link {
+    font-style: italic;
+    color: #ec1e79;
+}
+
+.breadcrumbs__link_active {
+    text-decoration: none;
+    cursor: default;
+    color: #221f1f;
+}
+
+.title_feed {
+    margin-bottom: 35px;
+}
+
+.feed {
+    font-size: 0;
+    margin-bottom: 15px;
+}
+
+
+.feed__item {
+    padding-bottom: 27px;
+    margin-bottom: 27px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.feed :last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.feed__img {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    vertical-align: top;
+    border-radius: 80px;
+    background-color: #f5f5f5;
+    background-image: url(../../img/logo/logo-fig.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feed__img_no {
+    filter: grayscale(100%);
+}
+
+.feed__img img {
+    border-radius: 80px;
+}
+
+.feed__description {
+    display: inline-block;
+    vertical-align: top;
+    width: 720px;
+    padding-left: 20px;
+}
+
+.feed__date {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.feed__name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feed__text {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tabs {
+    font-size: 0;
+    text-align: center;
+    display: block;
+    margin-bottom: 70px;
+}
+
+.tabs:before {
+    font-size: 14px;
+    content: "Страница 1 из 7";
+    margin-right: 10px;
+    color: #656464;
+}
+
+.tabs__item {
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.tabs__link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 25px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.tabs__link:hover {
+    color: #ec1e79;
+    background-color: #27273e;
+}
+
+.form {
+    width: 700px;
+    padding: 40px 70px;
+    background-color: #f5f5f5;
+}
+
+.form__inputs {
+    margin-bottom: 10px;
+}
+
+.form__row {
+    margin-bottom: 12px;
+    font-size: 0;
+}
+
+.form__title {
+    font-size: 49px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.form__elem {
+    display: inline-block;
+    width: 270px;
+    font-size: 14px;
+}
+
+.form__elem_left {
+    margin-right: 20px;
+}
+
+.form__elem-title {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    height: 45px;
+}
+
+.form__texarea {
+    font-size: 14px;
+}
+
+.form__texarea-input {
+    padding: 0;
+    width: 100%;
+    min-height: 90px;
+   
+}
+
+.form__buttons {
+    font-size: 0;
+}
+
+.form__radios {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.form__controls {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    text-align: right;
+}
+
+.form__radios-title {
+    margin-bottom: 10px;
+}
+
+.form__radio {
+    display: inline-block;
+}
+
+.form__submit-text {
+    text-transform: uppercase;
+    padding: 15px 20px;
+    font-weight: 700;
+    letter-spacing: .2em;
+    background-color: #27273e;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5s;
+}
+
+.form__submit {
+    padding: 0;
+    border: 0;
+    background-color: #f5f5f5;
+}
+
+.form__submit:hover .form__submit-text {
+    background-color: #ec1e79;
+}
+.form__radio-name {
+    display: block;
+    position: relative;
+}
+.form__radio-name:hover > .form__radio-img {
+    border: 2px solid #221f1f;
+}
+
+.form__radio-name:hover > .form__radio-img:after{
+    border-radius: 50%;
+    background: #221f1f;
+}
+
+.form__radio-elem {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+
+.form__radio-img {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #C8C8C8;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+
+.form__radio-img:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+   
+   }
+
+.form__radio-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form__radio-elem:checked+.form__radio-img:after {
+    background: #ec1e79;
+    border-radius: 50%;
+}
+
+.form__radio-elem:checked+.form__radio-img {
+    
+    border: 2px solid #ec1e79;
+}
+
